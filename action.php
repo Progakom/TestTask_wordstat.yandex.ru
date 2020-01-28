@@ -1,10 +1,9 @@
 <?php 
 
-require 'lib/vendor/autoload.php';
+require 'vendor/autoload.php';
 
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx;//https://phpspreadsheet.readthedocs.io/en/latest/topics/reading-and-writing-to-file/#excel-5-biff-file-format
-
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 define("TOKEN" ,"Ваш токен");//токен пользователя (см. Директ API)
 
 function curl_get($ch,$postdata){
