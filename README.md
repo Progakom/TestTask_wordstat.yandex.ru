@@ -2,4 +2,5 @@
 
 ## Requirements
 
-[PhpSpreadsheet](http://webdesign.ru.net)
+[Composer](https://github.com/composer/composer)
+[PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet)
